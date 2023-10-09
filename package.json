@@ -1,0 +1,18 @@
+{
+  "name": "firebase-notifications-server",
+  "version": "1.0.0",
+  "description": "A straightforward server-side application designed for delivering notifications to your app.",
+  "main": "index.js",
+  "author": "Olexandr Zabrodskyi <zabrodskyi71011@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.2",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0",
+    "typescript": "^5.2.2"
+  }
+}
